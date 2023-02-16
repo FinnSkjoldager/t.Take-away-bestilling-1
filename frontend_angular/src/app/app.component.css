@@ -1,0 +1,22 @@
+.title{
+    font-size:20pt;
+    margin-left:20px;
+    display: inline-block;
+}
+.subtitle{
+    font-size:15pt;
+    margin-left:20px;
+}
+.text-center{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.container{
+    margin-top:20px;
+}
+.hvadviljeg{
+    font-size:15pt;
+    font-weight: bold;
+    margin-left:20px;
+    display: inline-block;
+}

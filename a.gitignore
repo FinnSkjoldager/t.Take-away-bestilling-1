@@ -1,0 +1,42 @@
+backend/node_modules
+backend/public/build
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/vendor
+backend/.env
+backend/.env.backup
+backend/.env.production
+backend/.phpunit.result.cache
+backend/Homestead.json
+backend/Homestead.yaml
+backend/auth.json
+backend/npm-debug.log
+backend/yarn-error.log
+backend/.fleet
+backend/.idea
+backend/.vscode
+frontend/.angular/cache
+# NPM
+frontend/node_modules
+frontend/npm-debug.log
+frontend/sandboxes.ts
+
+# Code Editor Settings
+frontend/.idea
+frontend/.vs
+
+# Build Generated Files
+frontend/src/app/**/*.js
+frontend/src/app/**/*.js.map
+
+# Ignore any Webpack generated files
+frontend/dist
+frontend/src/app/devDist
+frontend/src/app/dist
+
+frontend/cypress/videos/
+frontend/cypress/screenshots/
+
+
+

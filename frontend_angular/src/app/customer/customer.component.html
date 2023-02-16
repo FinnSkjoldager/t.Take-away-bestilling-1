@@ -1,0 +1,25 @@
+<table class="style-table">
+  <thead>
+    <th>#id</th>
+    <th>Navn</th>
+    <th>
+      <a class1="btn btn-outline-success" (click)="onAddOrEditCustomer(null,null)">
+        <button type="button" class="button1" mat-stroked-button>
+          <mat-icon>add_box</mat-icon>
+          Opret kunde
+        </button> </a>
+    </th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of customerList">
+      <th>{{item.id}}</th>
+      <td>{{item.Name}}</td>
+      <td class="tablebutton">
+        <a class="btn btn-sm btn-info text-white" (click)="onAddOrEditCustomer(item.id,i)"><i
+            class="fa fa-pencil"></i></a>
+        <a class="btn btn-sm btn-danger text-white ml-1" (click)="onDeleteCustomer(item.id,i)"><i
+            class="fa fa-trash"></i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
